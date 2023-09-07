@@ -18,7 +18,7 @@ public Class Clumps {
 				count++;
 			}
 			else {
-				max = (count > max) ? count : max;
+				max = (count > max) ? count : max; // a new way of assignment due to diff conditions
 				count = 1;
 			}
 		}
