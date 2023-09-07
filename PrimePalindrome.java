@@ -6,7 +6,7 @@ public class PrimePalindrome {
 		Scanner sc = new Scanner (System.in);
 		int num = sc.nextInt();
 		System.out.println("The next prime palindrome is " + primePalin(num));
-		sc.close();
+		sc.close(); // always a good practice to end Scanner
 	}
 
 	public static int primePalin(int para) {
