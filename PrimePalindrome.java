@@ -17,7 +17,7 @@ public class PrimePalindrome {
 	}
 
 	public static boolean isPrime(int para) {
-		int ind = 2;
+		int ind = 1; // in case para is 3 
 		while (ind * ind < para) {
 			ind++;
 			if (para % ind == 0) {
